@@ -351,7 +351,6 @@ section.section-first {
 .portfolio-subtitle {
     text-align: left;
     cursor: pointer;
-    max-width: 360px;
     margin-bottom: 8px;
     position: relative;
     overflow: hidden;
@@ -493,7 +492,6 @@ section.section-first {
     gap: 16px;
     justify-content: center;
     list-style: none;
-    padding-left: unset;
 }
 
 .footer-contact-items {
