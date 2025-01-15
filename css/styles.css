@@ -459,10 +459,9 @@ section.section-first {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    margin-bottom: 16px;
 }
 
-.footer-right p {
+.footer-right p.social-media-header {
     margin-bottom: 16px;
 }
 
