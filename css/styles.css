@@ -406,9 +406,6 @@ section.section-first {
     padding: 40px 32px;
     display: block;
     top: 0;
-}
-
-.portfolio-subtitle:hover .img-cover p {
     width: 100%;
     height: 100%;
     transform: translateY(100%);
