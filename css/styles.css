@@ -451,7 +451,6 @@ section.section-first {
     gap: 16px;
     position: relative;
     bottom: 16px;
-    margin-bottom: 16px;
 }
 
 .footer-right .social-media-header {
@@ -461,6 +460,11 @@ section.section-first {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.footer-right p {
+    margin-bottom: 16px;
 }
 
 .footer-logo {
