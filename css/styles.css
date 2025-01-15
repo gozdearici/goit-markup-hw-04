@@ -391,7 +391,6 @@ section.section-first {
 }
 
 .portfolio-subtitle .img-cover-text {
-    content: '';
     background-color: #4d5ae5;
     color: #f4f4fd;
     font-family: 'Roboto', sans-serif;
