@@ -121,6 +121,7 @@ img {
     display: flex;
     flex-direction: row;
     gap: 40px;
+    list-style-type: none;
 }
 
 .info {
@@ -132,8 +133,7 @@ img {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.info-list a {
-    list-style-type: none;
+address.info-list a {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -237,6 +237,7 @@ section.section-first {
     border: 1px solid #8e8f99;
     border-radius: 4px;
     background-color: #f4f4fd;
+    margin-bottom: 8px;
 }
 
 .section-second-header {
@@ -457,7 +458,7 @@ section.section-first {
     bottom: 16px;
 }
 
-.footer-right p {
+.footer-right .social-media-header {
     font-family: "Roboto", sans-serif;
     color: #fff;
     font-weight: 500;
