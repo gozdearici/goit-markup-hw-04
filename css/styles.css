@@ -398,7 +398,7 @@ section.section-first {
     display: none;
 }
 
-.portfolio-subtitle:hover .img-cover .img-cover-text {
+.portfolio-subtitle:hover .img-cover-text {
     display: block;
     transform: translateY(0%);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
