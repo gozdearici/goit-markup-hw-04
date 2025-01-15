@@ -497,6 +497,7 @@ section.section-first {
     justify-content: center;
     list-style: none;
     padding-left: unset;
+    margin-bottom: 16px;
 }
 
 .footer-contact-items {
