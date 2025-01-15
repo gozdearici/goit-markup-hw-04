@@ -401,6 +401,7 @@ section.section-first {
     position: absolute;
     padding: 40px 32px;
     top: 0;
+    text-transform: capitalize;
 }
 
 .portfolio-subtitle:hover .img-cover .img-cover-text {
