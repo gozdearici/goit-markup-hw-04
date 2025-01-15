@@ -360,6 +360,7 @@ section.section-first {
     margin-bottom: 8px;
     position: relative;
     overflow: hidden;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-subtitle div {
@@ -376,10 +377,14 @@ section.section-first {
     margin-bottom: 8px;
 }
 
-.portfolio-subtitle .img-cover-text {
+.portfolio-subtitle:hover .img-cover {
     position: absolute;
     overflow: hidden;
     display: none;
+}
+
+.portfolio-subtitle:hover .img-cover-text {
+    transform: translateY(0%);
 }
 
 .portfolio-subtitle:hover {
@@ -387,11 +392,7 @@ section.section-first {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-subtitle {
-    transform: translateY(0%);
-}
-
-.portfolio-subtitle .img-cover-text:hover {
+.portfolio-subtitle:hover .img-cover-text {
     content: ' ';
     background-color: #4d5ae5;
     color: #f4f4fd;
