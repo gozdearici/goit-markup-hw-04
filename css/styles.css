@@ -377,7 +377,7 @@ section.section-first {
     overflow: hidden;
 }
 
-.portfolio-subtitle .img-cover-text {
+.portfolio-subtitle p.img-cover-text {
     display: none;
     width: 100%;
     height: 100%;
