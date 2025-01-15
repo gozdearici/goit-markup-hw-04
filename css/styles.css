@@ -453,6 +453,7 @@ section.section-first {
     gap: 16px;
     position: relative;
     bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .footer-right .social-media-header {
