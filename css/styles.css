@@ -306,7 +306,7 @@ section.section-first {
     padding-left: unset;
 }
 
-.person-contact-items {
+.person-contact-item {
     display: flex;
     align-items: center;
     justify-content: center;
