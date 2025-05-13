@@ -19,6 +19,18 @@ img {
     display: block;
 }
 
+.modal {
+    position: fixed;
+    background-color: rgba(46, 47, 66, 0.4);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 4;
+}
+
 .header-menu {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -443,10 +455,11 @@ section.section-first {
     flex-direction: column;
     gap: 16px;
     position: relative;
-    bottom: 16px;
+    margin-right: 120px;
 }
 
-.footer-right .social-media-header {
+.footer-right .social-media-header,
+.footer-right-right .subscribe-header {
     font-family: "Roboto", sans-serif;
     color: #fff;
     font-weight: 500;
@@ -488,6 +501,7 @@ section.section-first {
     gap: 16px;
     justify-content: center;
     list-style: none;
+    padding-left: unset;
 }
 
 .footer-contact-items {
@@ -510,4 +524,63 @@ section.section-first {
 .footer-right .footer-contact-items .footer-contact-item:focus {
     background-color: #31d0aa;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-right-right {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-right-right form[name="subscribe"] {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.footer-right-right input[name="email"] {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: transparent;
+    padding-left: 16px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    font-size: 12px;
+}
+
+.footer-right-right input[placeholder="E-mail"]::placeholder {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.footer-right-right button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    background: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-right-right .icon-items use {
+    fill: #f4f4fd;
 }
